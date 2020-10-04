@@ -10,14 +10,16 @@ html, body {
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
-	background-color: #ebf2f2;
+	height: 100vh;
+	background-color: white;
+	overflow-y:scroll; 
 }
 
 .content{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: white;
+	background-color: #ebf2f2;
 	width: 40vw;
 	padding-top: 40px;
 	padding-bottom: 40px;
