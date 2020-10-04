@@ -61,11 +61,11 @@ a:visited{
 	color:#191e1e;
 }
 small{
-	color:gray;
+	color:#086dc3;
 }
 small>i{
 	margin-top: 20px;
-	color: gray;
+	color: #086dc3;
 }
 .go{
 	width: 2em;
