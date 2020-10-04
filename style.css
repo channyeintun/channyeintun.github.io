@@ -69,7 +69,7 @@ small>i{
 	color: gray;
 }
 .go{
-	width: 3rem;
+	width: 2em;
 }
 @media screen and (max-width: 39em) {
 	.content{
