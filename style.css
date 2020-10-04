@@ -44,8 +44,8 @@ h3{
 	border: 1px dotted gray;
 }
 .sub-heading > i{
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	color:#191e1e;
 }
 i{
@@ -64,8 +64,6 @@ small{
 }
 small>i{
 	margin-top: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
 	color: gray;
 }
 .go{
