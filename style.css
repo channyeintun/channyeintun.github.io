@@ -36,9 +36,12 @@ h3{
 	color:#086dc3;
 }
 .sub-heading{
+	display: flex;
+	align-items: center;
 	font-size:1.5rem;
 	line-height: 2rem;
 	margin-bottom: 20px;
+	border: 1px dotted gray;
 }
 .sub-heading > i{
 	margin-left: 20px;
@@ -61,7 +64,13 @@ small{
 }
 small>i{
 	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 	color: gray;
+}
+.go{
+	margin-bottom:0;
+	width: 3rem;
 }
 @media screen and (max-width: 39em) {
 	.content{
