@@ -68,7 +68,7 @@ const projects: Project[] = [
     description: "A responsive website with content management features for MEEC.",
     techStack: ["Next.js", "TypeScript", "Strapi.js", "PostgreSQL", "GraphQL", "PM2"],
     images: [meec, strapi_meec],
-    link: "https://meec-web.vercel.app/en",
+    link: "https://github.com/channyeintun/meec-nextjs-frontend",
     dataAiHint: "website development",
     company: "MEEC",
     ...designer
