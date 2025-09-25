@@ -39,7 +39,7 @@ const projects: Project[] = [
   {
     title: "use-scrimba",
     description: "A powerful React hook that can record and replay Code Editor interactions with perfect synchronization, creating interactive coding tutorials.",
-    techStack: ["TypeScript", "React.js", "Monaco Editor"],
+    techStack: ["TypeScript", "React.js", "Monaco Editor", "ClaudeCode"],
     images: [use_scrimba],
     link: "https://use-scrimba.vercel.app/",
     dataAiHint: "Scrimba-like functionality",
