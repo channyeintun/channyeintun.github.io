@@ -47,7 +47,7 @@ const projects: Project[] = [
   {
     title: "Channel.org",
     description: "A distributed social media platform, a fork of Mastodon, enhancing user experience and performance.",
-    techStack: ["Next.js", "TypeScript", "TailwindCSS", "React Query", "Ruby on Rails", "PostgreSQL", "Shadcn/UI"],
+    techStack: ["Next.js", "TypeScript", "TailwindCSS", "Tiptap", "React Query", "Ruby on Rails", "PostgreSQL", "Shadcn/UI"],
     images: [home_channel, web_channel, public_channel, dashboard_channel],
     link: "https://home.channel.org/",
     dataAiHint: "social media",
@@ -56,7 +56,7 @@ const projects: Project[] = [
   {
     title: "SarPhat Publishing Platform",
     description: "A comprehensive digital publishing solution for authors and publishers in Myanmar",
-    techStack: ["React.js", "Next.js", "JavaScript", "XState", "Java", "Spring Boot", "MySQL"],
+    techStack: ["React.js", "Next.js", "JavaScript", "XState", "Quill", "Java", "Spring Boot", "MySQL"],
     images: [sarphat, spwrite],
     link: "https://sarphat.com/",
     dataAiHint: "online publishing",
@@ -75,8 +75,8 @@ const projects: Project[] = [
   },
   {
     title: "Anicana Web3 Platform",
-    description: "A decentralized platform for games, integrating with blockchain technologies.",
-    techStack: ["React.js", "TypeScript", "web3auth", "PHP", "Laravel"],
+    description: "A decentralized platform for trading game items, integrating with blockchain technologies.",
+    techStack: ["React.js", "TypeScript", "web3auth", "web3.js", "PHP", "Laravel"],
     images: [anicana],
     link: "https://anicana.org/",
     dataAiHint: "Loftal",
