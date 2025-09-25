@@ -28,7 +28,7 @@ export default function Home() {
               I'm an experienced software engineer with 5 years specializing in React.js and Next.js. Passionate about building modern, responsive, and user-friendly web applications.
             </p>
           </div>
-          <div className="flex flex-col gap-4 min-[400px]:flex-row justify-start flex-wrap">
+          <div className="w-full grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))'}}>
             <Button asChild size="lg" className="rounded-md bg-gradient-to-b from-white/10 bg-red-500 text-gray-100 relative shadow-inner shadow-gray-900/20 motion-safe:transition active:scale-98 grid place-items-center after:content-[''] after:absolute after:inset-0 after:rounded-md after:bg-gradient-to-b after:from-white/40 after:to-white/10 after:opacity-70 hover:after:opacity-100 after:motion-safe:transition">
               <Link href="/projects"><span className='text-shadow-lg/20 [text-shadow:0_1px_1px_#991b1b]'>View My Work</span></Link>
             </Button>
