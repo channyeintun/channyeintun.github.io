@@ -12,7 +12,7 @@ export default function Home() {
               color: "oklch(0.928 0.006 264.531)"
             }}>Hi! I'm a</p>
             <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl font-headline whitespace-nowrap">
-              <span className="text-primary">Frontend</span> Developer
+              <span className="text-primary">Full-Stack</span> Developer
             </h1>
           </div>
           <div className="">
@@ -25,7 +25,7 @@ export default function Home() {
               I&apos;m glad you&apos;re here. Take a look around and discover what I have to offer.
             </p>
             <p className="text-muted-foreground text-base font-light" style={{ color: 'color(srgb 0.628235 0.628235 0.628235)' }}>
-              I'm an experienced software engineer with 5 years specializing in React.js and Next.js. Passionate about building modern, responsive, and user-friendly web applications.
+              I'm an experienced software engineer with 5 years, frontend-focused but skilled in full-stack development. Passionate about building modern, responsive, and user-friendly web applications.
             </p>
           </div>
           <div className="w-full grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))'}}>
