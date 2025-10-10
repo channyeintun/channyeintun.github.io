@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <section className="relative flex min-h-[calc(100vh-5rem)] w-full items-center justify-center overflow-hidden">
+      <section className="relative flex min-h-[calc(100vh-5rem-72px)] w-full items-center justify-center overflow-hidden">
         <div className="container z-10 mx-auto flex max-w-2xl flex-col items-start justify-center gap-6">
           <div className="space-y-4">
             <p className="max-sm:mt-4 text-sm font-extralight" style={{
