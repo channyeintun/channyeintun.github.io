@@ -12,7 +12,7 @@ export default function Home() {
               color: "oklch(0.928 0.006 264.531)"
             }}>Hi! I'm a</p>
             <h1 className="text-4xl font-bold sm:text-5xl md:text-6xl font-headline whitespace-nowrap">
-              <span className="text-primary">Full-Stack</span> Developer
+              <span className="text-primary">Frontend</span> Developer
             </h1>
           </div>
           <div className="">
