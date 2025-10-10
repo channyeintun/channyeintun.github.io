@@ -25,7 +25,7 @@ export default function Home() {
               I&apos;m glad you&apos;re here. Take a look around and discover what I have to offer.
             </p>
             <p className="text-muted-foreground text-base font-light" style={{ color: 'color(srgb 0.628235 0.628235 0.628235)' }}>
-              I'm an experienced software engineer with 5 years, frontend-focused but skilled in full-stack development. Passionate about building modern, responsive, and user-friendly web applications.
+              Experienced software engineer with 5 years of experience, specializing in frontend development and skilled in full-stack technologies. Passionate about building modern, responsive, and user-friendly web applications.
             </p>
           </div>
           <div className="w-full grid gap-4" style={{gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))'}}>
