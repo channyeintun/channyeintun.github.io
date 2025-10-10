@@ -24,7 +24,7 @@ const skills = [
 const workExperience: Experience[] = [
   {
     company: "TypeScript Developer",
-    location: "Bangkok, Thailand",
+    location: "Da Nang, Vietnam",
     workType: "Remote",
     roles: [{
       title: "",
