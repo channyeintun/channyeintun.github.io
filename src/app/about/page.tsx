@@ -17,19 +17,26 @@ import { Spotlight } from "@/components/ui/spotlight";
 
 const skills = [
   "React.js", "Next.js", "TypeScript", "JavaScript (ES6+)",
-  "React Native", "Redux", "TanStack Query", "Tiptap", "GraphQL", "NestJs", "Go", "REST APIs", "TailwindCSS",
-  "HTML5", "CSS3", "a11y", "Java", "Spring", "Docker", "Git"
+  "React Native", "Redux", "TanStack Query", "Tiptap", "GraphQL", "NestJs", "Vite", "Go", "REST APIs", "TailwindCSS",
+  "HTML5", "CSS3", "a11y", "Java", "Spring", "Docker", "Git", "CI/CD", "Agile & Scrum", "Figma", "AWS"
 ];
 
 const workExperience: Experience[] = [
   {
-    company: "TypeScript Developer",
-    location: "Da Nang, Vietnam",
+    company: "BinaryLab",
+    companyUrl: "https://binarylab.io/",
+    location: "Yangon, Myanmar",
     workType: "Remote",
-    roles: [{
-      title: "",
-      period: "Oct 2024 – present",
-      description: ""
+    roles: [
+     {
+      title: "Technical Project Manager",
+      period: "May 2025 – Present",
+      description: "Lead the end-to-end technical execution of the project, including system design and development of critical features using NestJS and NextJS. Conduct in-depth code reviews, provide technical mentorship to team members, and ensure high-quality, timely delivery of project milestones in alignment with business objectives."
+     },
+     {
+      title: "Frontend Lead",
+      period: "Oct 2024 – April 2025",
+      description: "Leading the frontend team and overseeing the development of user-facing features."
     }]
   },
   {
