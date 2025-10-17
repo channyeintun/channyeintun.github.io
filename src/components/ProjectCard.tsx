@@ -60,7 +60,29 @@ export default function ProjectCard({ title, description, techStack, images, lin
         </CardHeader>
         <CardContent className="flex-grow pt-6">
           <CardTitle className="text-2xl font-headline">{title}</CardTitle>
-          <CardDescription className="mt-2 text-base text-muted-foreground font-thin">{description}</CardDescription>
+          <CardDescription className="mt-2 text-base text-muted-foreground font-thin">
+            {description.split(/\[([^\]]+)\]\(([^)]+)\)/).map((part, i) => {
+              if (i % 3 === 1) {
+                // This is the link text
+                return (
+                  <Link 
+                    key={i} 
+                    href={description.split(/\[([^\]]+)\]\(([^)]+)\)/)[i + 1]} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-primary hover:underline"
+                  >
+                    {part}
+                  </Link>
+                );
+              } else if (i % 3 === 0) {
+                // This is regular text
+                return part;
+              }
+              // Skip the URL part as we already used it
+              return null;
+            })}
+          </CardDescription>
           <div className="mt-4 flex flex-wrap gap-2 items-center">
             {company && (
               <Badge variant="outline" className="flex items-center gap-1.5 py-1 px-2.5">
