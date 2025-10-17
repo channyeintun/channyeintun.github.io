@@ -49,7 +49,7 @@ const projects: Project[] = [
     description: "A distributed social media platform, a fork of Mastodon, enhancing user experience and performance.",
     techStack: ["Next.js", "TypeScript", "TailwindCSS", "Tiptap", "React Query", "Ruby on Rails", "PostgreSQL", "Shadcn/UI"],
     images: [home_channel, web_channel, public_channel, dashboard_channel],
-    link: "https://home.channel.org/",
+    link: "https://web.channel.org/",
     dataAiHint: "social media",
     company: "Channels",
   },
