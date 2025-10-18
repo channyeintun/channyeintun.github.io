@@ -21,7 +21,10 @@ const skills = [
   "HTML5", "CSS3", "a11y", "Java", "Spring", "Docker", "Git", "CI/CD", "Agile & Scrum", "Figma", "AWS"
 ];
 
-const workExperience: Experience[] = [
+const workExperience: Experience[] = [];
+
+/*
+[
   {
     company: "BinaryLab",
     companyUrl: "https://binarylab.io/",
@@ -84,6 +87,7 @@ const workExperience: Experience[] = [
     }]
   }
 ];
+*/
 
 const certifications = [
   {
@@ -215,7 +219,7 @@ export default function AboutPage() {
         </Card>
       </section>
 
-      <section className="mt-16">
+      {workExperience.length && <section className="mt-16">
         <h2 className="text-3xl font-bold font-headline text-center mb-12">Work Experience</h2>
         <div className="relative border-l-2 border-border pl-8 space-y-12">
           {workExperience.map((exp, index) => (
@@ -271,7 +275,7 @@ export default function AboutPage() {
             </div>
           ))}
         </div>
-      </section>
+      </section>}
 
       <section className="mt-16">
         <h2 className="text-3xl font-bold font-headline text-center mb-8">Education</h2>
