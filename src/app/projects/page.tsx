@@ -110,7 +110,7 @@ const projects: Project[] = [
     company: "NexStack",
   },
   {
-    title: "NexRetail POS and Backoffice Management System",
+    title: "NexRetail POS and Back Office Management System",
     description: "POS and Backoffice Management System",
     techStack: ["React.js", "Java", "Spring Boot", "MySQL"],
     images: [nexretail],
@@ -146,22 +146,22 @@ const projects: Project[] = [
     link: "https://save-fb-video.vercel.app/",
     dataAiHint: "facebook video downloader",
   },
-  {
-    title: "Offline Learning App",
-    description: "A simple offline learning app to save progress and access content without internet.",
-    techStack: ["Go", "HTML5"],
-    images: [offlinelearning],
-    link: "https://github.com/channyeintun/offline-learning-platform",
-    dataAiHint: "offline learning app",
-  },
-  {
-    title: "Implemented Rounded Shape for QR Code",
-    description: "Contributed to the QR Code library to implement rounded shapes for QR codes, enhancing visual appeal.",
-    techStack: ["JavaScript", "QR"],
-    images: [qr],
-    link: " https://github.com/devtrice/qr-x/pull/51",
-    dataAiHint: "Rounded QR Code",
-  },
+  // {
+  //   title: "Offline Learning App",
+  //   description: "A simple offline learning app to save progress and access content without internet.",
+  //   techStack: ["Go", "HTML5"],
+  //   images: [offlinelearning],
+  //   link: "https://github.com/channyeintun/offline-learning-platform",
+  //   dataAiHint: "offline learning app",
+  // },
+  // {
+  //   title: "Implemented Rounded Shape for QR Code",
+  //   description: "Contributed to the QR Code library to implement rounded shapes for QR codes, enhancing visual appeal.",
+  //   techStack: ["JavaScript", "QR"],
+  //   images: [qr],
+  //   link: " https://github.com/devtrice/qr-x/pull/51",
+  //   dataAiHint: "Rounded QR Code",
+  // },
 ];
 
 export default function ProjectsPage() {

@@ -326,7 +326,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="mt-16">
+      {/* <section className="mt-16">
         <h2 className="text-3xl font-bold font-headline text-center mb-12">More Than Code</h2>
         <Card className="max-w-3xl mx-auto overflow-hidden">
           <CardContent className="p-0 sm:p-8 flex flex-col sm:flex-row items-center gap-8">
@@ -363,7 +363,7 @@ export default function AboutPage() {
             </Card>
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
