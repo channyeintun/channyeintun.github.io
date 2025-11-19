@@ -2,6 +2,7 @@ import ProjectCard from "@/components/ProjectCard";
 import type { Project } from "@/lib/types";
 import sarphat from "@/assets/sarphat.webp";
 import anicana from "@/assets/anicana.webp";
+import anicana2 from "@/assets/anicana02.webp";
 import home_channel from "@/assets/home-channel.webp";
 import web_channel from "@/assets/web-channel.webp";
 import public_channel from "@/assets/public-channel.webp";
@@ -9,12 +10,18 @@ import dashboard_channel from "@/assets/dashboard-channel.webp";
 import meec from "@/assets/meec.webp";
 import strapi_meec from "@/assets/strapi-meec.webp";
 import sssp from "@/assets/ss-sp.webp";
-import nexretail from "@/assets/nexretail.webp";
-import hr from "@/assets/hr.webp";
-import invoiceapp from "@/assets/invoice-app.webp";
+import dashboard from "@/assets/dashboard.webp";
+import eIncentive from "@/assets/e-incentive.webp";
+import ePricing from "@/assets/e-pricing.webp";
+import nexretail1 from "@/assets/nexretail01.webp";
+import nexretail2 from "@/assets/nexretail02.webp";
+import hr1 from "@/assets/01.webp";
+import hr2 from "@/assets/02.webp";
+import invoice01 from "@/assets/invoice01.webp";
+import invoice02 from "@/assets/invoice02.webp";
 import code2 from "@/assets/code2.webp";
 import ellsa from "@/assets/ellsa-ai.webp";
-import live2dcubism from "@/assets/live2d-cubism-ai.webp";
+import ellsa2 from "@/assets/translateai.webp";
 import fbdl from "@/assets/fbdl.webp";
 import offlinelearning from "@/assets/offline-learn.webp";
 import qr from "@/assets/qr.webp";
@@ -77,7 +84,7 @@ const projects: Project[] = [
     title: "Anicana Web3 Platform",
     description: "A decentralized platform for trading game items, integrating with blockchain technologies.",
     techStack: ["React.js", "TypeScript", "web3auth", "web3.js", "PHP", "Laravel"],
-    images: [anicana],
+    images: [anicana, anicana2],
     link: "https://anicana.org/",
     dataAiHint: "Loftal",
     company: "Loftal",
@@ -86,7 +93,7 @@ const projects: Project[] = [
     title: "Sheng Siong Supplier Portal",
     description: "A supplier portal including microservices and a data analytics dashboard.",
     techStack: ["Next.js", "Strapi.js", "Node.js", "Express"],
-    images: [sssp],
+    images: [sssp, dashboard, eIncentive, ePricing],
     link: "https://shengsiong.com.sg/",
     dataAiHint: "dashboard analytics",
     company: "NexStack",
@@ -95,7 +102,7 @@ const projects: Project[] = [
     title: "Invoice and Quotation",
     description: "Invoice & Quotation platform",
     techStack: ["Next.js", "Strapi.js", "GraphQL"],
-    images: [invoiceapp],
+    images: [invoice01, invoice02],
     link: "https://mystock.onlineinvoices.com/",
     dataAiHint: "Invoice and Quotation",
     company: "NexStack",
@@ -104,7 +111,7 @@ const projects: Project[] = [
     title: "Nex App HR Management System",
     description: "A mobile application for the Nex App HR Management System, a comprehensive solution for managing human resources.",
     techStack: ["Next.js", "Strapi.js", "React Native", "GraphQL", "Pdf.js", "Puppeteer"],
-    images: [hr],
+    images: [hr1, hr2],
     link: "#",
     dataAiHint: "HR Management System",
     company: "NexStack",
@@ -113,7 +120,7 @@ const projects: Project[] = [
     title: "NexRetail POS and Back Office Management System",
     description: "POS and Backoffice Management System",
     techStack: ["React.js", "Java", "Spring Boot", "MySQL"],
-    images: [nexretail],
+    images: [nexretail1, nexretail2],
     link: "https://digitalbase.com.mm/enterprise",
     dataAiHint: "POS and Backoffice Management System",
     company: "Nexcode",
@@ -133,7 +140,7 @@ const projects: Project[] = [
     title: "ELLA Translation AI",
     description: "An AI-powered translation platform, enabling real-time language translation and transcription.",
     techStack: ["React.js", "Live2D Cubism", "OpenAI", "Google Speech Recognition", "Azure AI Speech", "PHP", "Laravel"],
-    images: [ellsa, live2dcubism],
+    images: [ellsa, ellsa2],
     link: "https://translate-dev.loftal.jp/",
     dataAiHint: "Loftal",
     company: "Loftal",
