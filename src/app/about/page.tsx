@@ -219,7 +219,7 @@ export default function AboutPage() {
         </Card>
       </section>
 
-      {workExperience.length && <section className="mt-16">
+      {workExperience.length > 0 && <section className="mt-16">
         <h2 className="text-3xl font-bold font-headline text-center mb-12">Work Experience</h2>
         <div className="relative border-l-2 border-border pl-8 space-y-12">
           {workExperience.map((exp, index) => (
