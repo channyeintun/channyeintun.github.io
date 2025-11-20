@@ -63,7 +63,7 @@ const projects: Project[] = [
   {
     title: "SarPhat Publishing Platform",
     description: "A comprehensive digital publishing solution for authors and publishers in Myanmar",
-    techStack: ["React.js", "Next.js", "JavaScript", "XState", "Quill", "Java", "Spring Boot", "MySQL"],
+    techStack: ["React.js", "Next.js", "JavaScript", "Mantine", "XState", "Quill", "Java", "Spring Boot", "MySQL"],
     images: [sarphat, spwrite],
     link: "https://sarphat.com/",
     dataAiHint: "online publishing",
