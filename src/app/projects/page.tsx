@@ -28,11 +28,6 @@ import qr from "@/assets/qr.webp";
 import spwrite from "@/assets/spwrite.webp";
 import use_scrimba from "@/assets/use-scrimba.webp";
 
-const designer = {
-  designerName: "Novem Pai",
-  designerUrl: "https://dribbble.com/novempai/",
-}
-
 const projects: Project[] = [
   {
     title: "Resolve Git Conflicts Easily with Github Desktop [Burmese]",
@@ -67,8 +62,7 @@ const projects: Project[] = [
     images: [sarphat, spwrite],
     link: "https://sarphat.com/",
     dataAiHint: "online publishing",
-    company: "SarPhat",
-    ...designer
+    company: "SarPhat"
   },
   {
     title: "MEEC Website",
@@ -77,8 +71,7 @@ const projects: Project[] = [
     images: [meec, strapi_meec],
     link: "https://github.com/channyeintun/meec-nextjs-frontend",
     dataAiHint: "website development",
-    company: "MEEC",
-    ...designer
+    company: "MEEC"
   },
   {
     title: "Anicana Web3 Platform",
@@ -123,8 +116,7 @@ const projects: Project[] = [
     images: [nexretail1, nexretail2],
     link: "https://digitalbase.com.mm/enterprise",
     dataAiHint: "POS and Backoffice Management System",
-    company: "Nexcode",
-    ...designer
+    company: "Nexcode"
   },
   {
     title: "Code2 E-Learning Platform",
@@ -133,8 +125,7 @@ const projects: Project[] = [
     images: [code2],
     link: "https://code2learning.com/",
     dataAiHint: "E-Learning Platform",
-    company: "Nexcode",
-    ...designer
+    company: "Nexcode"
   },
   {
     title: "ELLA Translation AI",
