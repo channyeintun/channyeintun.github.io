@@ -39,6 +39,7 @@ export default function ProjectCard({ title, description, techStack, images, lin
                   <CarouselItem key={index}>
                     <div className="aspect-video relative">
                       <Image
+                        loading="eager"
                         src={image}
                         alt={`${title} screenshot ${index + 1}`}
                         fill
